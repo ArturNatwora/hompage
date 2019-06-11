@@ -1,0 +1,20 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+*/
+
+body{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.bodyHeader {
+    width: 100%;
+    padding: 20px;
+    background: lightgrey;
+
+}

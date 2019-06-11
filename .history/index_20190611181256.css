@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+body{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.bodyHeader {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    position: relative;
+
+
+}
+.bodyHeader__nav{
+    background: lightgrey;
+    width: 100%;
+    height: auto;
+
+    display: block;
+}
+.bodyHeader__navListLink {
+    width: 100%;
+    list-style: none;
+    display: block;
+}
+.bodyHeader__navItemLink{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.bodyHeader__title{
+    font-size: 20px;
+    display: block;
+    margin:40px 20px;
+    background: whitesmoke;
+}
