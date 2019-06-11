@@ -9,7 +9,6 @@
 
 body{
     width: 70%;
-    max-width: 1100px;
     margin:  auto;
     background: rgb(214, 204, 186);
 
@@ -70,15 +69,13 @@ body{
     width: 100%;
     margin:40px 0 0 0 ;
 }
-@media (min-width: 770px) {
 
 .section-flex{
 display:flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: space-between;
 }
-}
+
 .section__title{
     width: 100%;
     font-size: 18px;
@@ -103,13 +100,8 @@ justify-content: space-between;
     border-radius: 10px;
 
 }
-@media (min-width: 770px) {
 .article-flex{
-    width: 49%;
-
-
-}
-
+    width: 45%;
 
 }
 .article__title{
