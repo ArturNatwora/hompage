@@ -30,7 +30,7 @@ body{
     margin: 35px 0;
 
     display: block;
-
+    position: fixed;
     border-width: 3px 2px 7px 2px ;
     border-style: solid;
     border-color: rgb(238, 236, 236);
@@ -127,19 +127,4 @@ justify-content: space-between;
 p{
     text-align: justify;
     padding: 0 20px;
-}
-
-.bodyHeader__footer{
-    background: rgb(238, 236, 236);
-    width: 100%;
-    height: auto;
-    margin: 35px 0;
-    padding: 20px 0;
-
-    display: block;
-
-    border-width: 3px 2px 7px 2px ;
-    border-style: solid;
-    border-color: rgb(238, 236, 236);
-    border-radius: 10px;
 }

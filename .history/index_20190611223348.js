@@ -10,6 +10,7 @@ let content =   "<p>To jest dynamicznie utworzony i wstawiony element.</p>";
 
  document.addEventListener("DOMContentLoaded", function() {
 let body = document.body;
-addElement("footer","bodyHeader__footer", content, body);
-});
 
+ addElement("footer",".bodyHeader__footer", content, body);
+
+});
