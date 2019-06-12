@@ -30,7 +30,8 @@ body{
 
     margin: 35px 0;
     display: block;
-
+    position: sticky;
+    top:35px;
 
     border-width: 3px 2px 7px 2px ;
     border-style: solid;
@@ -40,6 +41,7 @@ body{
 
 @media (max-width: 770px){
     .bodyHeader__nav{
+        position: static;
 
 
     }

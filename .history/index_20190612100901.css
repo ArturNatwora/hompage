@@ -20,17 +20,22 @@ body{
     width: 100%;
 
     display: block;
-
+    position: relative;
 
 
 }
 .bodyHeader__nav{
     background: rgb(238, 236, 236);
     width: 100%;
-
+    height: auto;
     margin: 35px 0;
-    display: block;
+    position: sticky;
+    z-index: 99;
+    top :35px;
 
+
+
+    display: inline-block;
 
     border-width: 3px 2px 7px 2px ;
     border-style: solid;
@@ -40,6 +45,7 @@ body{
 
 @media (max-width: 770px){
     .bodyHeader__nav{
+        position: static;
 
 
     }
@@ -64,7 +70,6 @@ body{
 @media (max-width: 770px) {
     .bodyHeader__navResponsSwich{
         display:block;
-
     }
     .bodyHeader__navResponsSwich:focus ~  .bodyHeader__navListLink {
         display: block;

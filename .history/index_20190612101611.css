@@ -31,7 +31,6 @@ body{
     margin: 35px 0;
     display: block;
 
-
     border-width: 3px 2px 7px 2px ;
     border-style: solid;
     border-color: rgb(238, 236, 236);
@@ -40,6 +39,7 @@ body{
 
 @media (max-width: 770px){
     .bodyHeader__nav{
+        position: static;
 
 
     }
