@@ -34,11 +34,11 @@ body {
 @media (max-width: 770px) {
   .bodyHeader__nav {
     width: auto;
-    margin: 4px;
+    margin: 4px;;
     padding: 4px;
     border: 2px;
     left: 0;
-    top: 3px;
+    top:3px;
 
     position: fixed;
   }
@@ -64,14 +64,14 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    min-width: 40px;
-    width: 50px;
+    width: 40px;
     height: 30px;
-    border-color: black;
+    border-color:black;
   }
   .bodyHeader__navResponsSwich:focus ~ .bodyHeader__navListLink {
     display: block;
   }
+
 }
 
 .bodyHeader__navListLink {
@@ -83,7 +83,7 @@ body {
 @media (max-width: 770px) {
   .bodyHeader__navListLink {
     display: none;
-    width: 250px;
+    width: 200px;
   }
   .bodyHeader__navListLink:hover {
     display: block;
@@ -109,7 +109,7 @@ body {
 @media (max-width: 770px) {
   .bodyHeader__navItemLink {
     display: block;
-    width: 90%;
+    width: 100%;
   }
 }
 

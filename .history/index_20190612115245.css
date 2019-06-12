@@ -65,7 +65,7 @@ body {
     padding: 0;
     border: 0;
     min-width: 40px;
-    width: 50px;
+    width: 0px;
     height: 30px;
     border-color: black;
   }
